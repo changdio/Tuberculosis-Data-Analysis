@@ -1,0 +1,26 @@
+---
+title: "Pair Assignment 2"
+author: "MSCI 718"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ggplot2)
+```
+
+*Instructions: Working in groups of size 1 or 2, complete this assignment and submit online to the LEARN Dropbox as a ***_PDF (max 2 pages)_***. Also upload any source files, for example, any .R or .Rmd files that you used, and an appendix (PDF, Rmd, Word, or MD) describing the contributions of each group member. If you discussed problems with other students, please describe the nature of that discussion (e.g., on Team, in a study group). Remember, you can discuss approaches to problems with other groups, but ***_the work you submit must be your own._**
+
+*In this assignment, you will perform exploratory data analysis and summarize a dataset. You may include any number of appendices showing your work.*
+
+You are concerned about global health epidemics, and want to check which factors may be related to tuberculosis. Navigate to https://www.who.int/tb/country/data/download/en/ and review the various data sets; you will need to pick one pair of variables that you'd like to test for correlation. These variables may be from any datasets.
+
+**For your one report**, include the following sections:
+
+ 1. Data: summarize the dataset(s), describe the number of observations, what variables there are, their levels of measurement/data type, and summary statistics for variables related to your analysis. Use plots as appropriate. Make sure to filter, tidy, and clean your data as discussed in class.
+ 2. Planning: identify the variables that you will analyze and check assumptions of the test(s) that you wish to carry out. You may not be able to report all output, but do be explicit about what test(s) you pick and why, and whether you transform the data at all. 
+ 3. Analysis: Clearly identify the question and/or hypothesis you have before your analysis - this may be a hypothesis you have *a priori*, or one generated from a brief exploration of the data, but must be specified before you do your actual test. Use plots as appropriate.
+ 4. Conclusion: write up a conclusion for your analysis and what it might mean.
+
+
